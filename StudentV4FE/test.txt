@@ -4,3 +4,8 @@ The Hello World project is a time-honored tradition in computer programming.
 It is a simple exercise that gets you started when learning something new
 
 Let’s get started with GitHub!
+
+git中的三类文件:
+被追踪的（tracked）:已经加入文档库
+不被追踪的(untracked):没有加入文档库
+忽略的(ignored):忽略那些不需要管理的文件夹或文件
