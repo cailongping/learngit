@@ -10,8 +10,7 @@ Learn Git and GitHub without any code!
 Step 1. Create a Repository
 
 Step 2. Create a Branch
-
-git怎么合并远程分支
+在使用Git的过程中，项目会有一个master分支，根据master分支还会创建一个dev分支，开发时都会使用dev分支。但开发完成之后如何把dev分支合并到master分支上呢？master分支dev分支都是远程分支。git怎么合并远程分支
 一共就五步：
 
 1、把代码clone到本地仓库
