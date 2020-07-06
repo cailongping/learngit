@@ -6,3 +6,28 @@ Create and use a repository
 Start and manage a new branch
 Make changes to a file and push them to GitHub as commits
 Open and merge a pull request
+
+假设你本地在使用的分支为a(master也是一样的)，需要合并的远程分支为development
+
+第一步
+在本地新建一个与远程的分支b相同(被合并的版本)的分支development
+git checkout -b development origin/development
+该指令的意思：创建一个本地分支，并将远程分支放到该分支里面去。
+
+第二步
+将远程代码pull到本地
+git pull origin development
+
+第三步
+返回到你的分支master
+git checkout master
+
+第四步
+合并分支master与分支development
+git merge development
+该指令的意思：当前所在分支与development进行合并。
+
+第五步
+把本地的分支master同步到远程
+git push origin master
+
